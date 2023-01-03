@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search">
+    <input type="text" placeholder="Nome do Pokemon" id="pokemon">
+    <button onclick="getPokemon()">Buscar</button>
+</div>
+    <div class="card" id="card">
+        <h3 id="name"></h3>
+        <h5 id="tipo"></h5>
+        
+            <img src="/pokebol.gif" alt="pokemon" id="foto">
+        
+        <label for="atributos"></label>
+        <ul id="atributos">
+            
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

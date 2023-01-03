@@ -1,0 +1,384 @@
+*{margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;justify-items: center;
+    background-image: url("back.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.search{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap:1rem
+}
+.search input{
+    height: 1.5rem;
+    font-size: 1.5rem;
+    background: rgba(243, 239, 239, 0.418);
+    padding: 1rem;
+    border-radius: 8px;
+    outline: none;
+}
+.search button{
+    border: none;
+    background: #a83b7e;
+    padding: 0.5rem;
+    border-radius: 8px;
+    outline: none;
+}
+
+.search button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background: #4b0d33;
+    color:white   
+}
+.card{
+    
+    background: rgb(71, 71, 70);
+    width: 14rem;
+    margin: 1rem;
+    padding: 1rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 8px;
+    
+
+}
+.card h3{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.card h5{
+    font-weight: 100;
+    font-size: 0.7rem;
+    color:rgb(167, 167, 164)
+}
+.card img{
+    width: 10rem;
+    background-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    outline:2px solid rgb(255, 255, 255);
+  
+}
+.card label{
+    
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-left: 1.5rem;
+    color:white
+}
+
+ /* ==== Inicio ==== */
+.electric,
+.fire,
+.fighting{
+    
+    background: rgb(211, 170, 58);
+    width: 14rem;
+    margin: 1rem;
+    padding: 1rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 8px;
+    
+
+}
+.electric h3,
+.fire h3,
+.fighting h3{
+    font-weight: bold;
+    color: rgb(255, 255, 4);
+}
+.electric h5,
+.fire h5,
+.fighting h5{
+    font-weight: 100;
+    font-size: 0.7rem;
+    color:rgb(231, 231, 171)
+}
+.electric img,
+.fire img,
+.fighting img{
+    width: 10rem;
+    background-color: white;
+    border: 2px solid orange;
+    outline:2px solid yellow;
+  
+}
+.electric label,
+.fire label,
+.fighting label{
+    
+    font-weight: bold;
+    color: orangered;
+}
+.electric ul,
+.fire ul,
+.fighting ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-left: 1.5rem;
+    color:white
+}
+
+.water,
+.dragon,
+.steel,
+.flying,
+.ghost,
+.ice{    
+    background: rgb(25, 25, 61);
+    color:white;
+    width: 14rem;
+    margin: 1rem;
+    padding: 1rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 8px;
+}
+.water h3,
+.dragon h3,
+.steel h3,
+.flying h3,
+.ghost h3,
+.ice h3{
+    font-weight: bold;
+    color: rgb(182, 240, 240);
+}
+.water h5,
+.dragon h5,
+.steel h5,
+.flying h5,
+.ghost h5,
+.ice h5{
+    font-weight: 100;
+    font-size: 0.7rem;
+    color:rgb(231, 231, 171)
+}
+.water img,
+.dragon img,
+.steel img,
+.flying img, 
+.ghost img,
+.ice img{
+    width: 10rem;
+    background-color: white;
+    border: 2px solid rgb(43, 22, 122);
+    outline:2px solid rgb(32, 82, 97);
+  
+}
+.water label,
+.dragon label,
+.steel label,
+.flying label,
+.ghost label,
+.ice label{
+    
+    font-weight: bold;
+    color: rgb(177, 192, 238);
+}
+.water ul,
+.dragon ul,
+.steel ul,
+.flying  ul,
+.ghost ul,
+.ice ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-left: 1.5rem;
+    color:white
+}
+
+
+
+.grass,
+.bug {    
+    background: rgb(1, 77, 1);
+    color:white;
+    width: 14rem;
+    margin: 1rem;
+    padding: 1rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 8px;
+}
+
+.grass h3,
+.bug h3{
+    font-weight: bold;
+    color: rgb(2, 240, 148);
+}
+
+.grass h5,
+.bug h5{
+    font-weight: 100;
+    font-size: 0.7rem;
+    color:rgb(121, 245, 127)
+}
+
+.grass img,
+.bug img {
+    width: 10rem;
+    background-color: white;
+    border: 2px solid rgb(5, 196, 62);
+    outline:2px solid rgb(9, 58, 28);
+  
+}
+
+.grass label,
+.bug label{
+    
+    font-weight: bold;
+    color: rgb(179, 209, 195);
+}
+
+.grass ul,
+.bug  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-left: 1.5rem;
+    color:white
+}
+
+.psychic,
+.fairy,
+.posion{
+    
+    background: rgba(55, 0, 77, 0.849);
+    width: 14rem;
+    margin: 1rem;
+    padding: 1rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 8px;
+    
+
+}
+.psychic h3,
+.fairy h3,
+.posion h3{
+    font-weight: bold;
+    color: #FA7A7C
+}
+.psychic h5,
+.fairy h5,
+.posion h5{
+    font-weight: 100;
+    font-size: 0.7rem;
+    color:#F09DE3
+}
+.psychic img,
+.fairy img,
+.posion img{
+    width: 10rem;
+    background-color: white;
+    border: 2px solid #cf62bf;
+    outline:2px solid #a83b7e
+  
+}
+.psychic label,
+.fairy label,
+.posion label{
+    
+    font-weight: bold;
+    color: #dfaaca;
+}
+.psychic ul,
+.fairy ul,
+.posion ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-left: 1.5rem;
+    color:white
+}
+
+
+
+.normal,
+.rock,
+.dark,
+.ground{    
+    background: rgb(88, 88, 88);
+    color:white;
+    width: 14rem;
+    margin: 1rem;
+    padding: 1rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 8px;
+}
+
+.normal h3,
+.rock h3,
+.dark h3,
+.ground h3{
+    font-weight: bold;
+    color: rgba(247, 242, 0, 0.795);
+}
+
+.normal h5,
+.rock h5,
+.dark h5,
+.ground h5{
+    font-weight: 100;
+    font-size: 0.7rem;
+    color:rgb(126, 116, 61)
+}
+
+.normal img,
+.rock img, 
+.dark img,
+.ground img{
+    width: 10rem;
+    background-color: white;
+    border: 2px solid rgb(233, 190, 98);
+    outline:2px solid rgb(192, 174, 92)
+  
+}
+
+.normal label,
+.rock label,
+.dark label,
+.ground label{
+    
+    font-weight: bold;
+    color: rgb(243, 245, 126);
+}
+
+.normal ul,
+.rock  ul,
+.dark ul,
+.ground ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-left: 1.5rem;
+    color:white
+}
